@@ -1,0 +1,20 @@
+pipenv shell
+install torch torchvision torchaudio
+git clone https://github.com/ultralytics/yolov5.git
+cd yolov5
+
+pipenv install -r requirements.txt 
+touch dataset.yaml
+(Configure dataset.yaml)
+python create_images.py (creates training images)
+
+label the created images:
+
+cd labelImg
+python labelImg.py
+(label the images)
+
+python train.py --img 640 --epochs 500 --data dataset.yaml --weights yolov5s.pt
+
+
+pipenv install Pillow==9.5.0
