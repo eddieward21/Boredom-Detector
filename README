@@ -9,7 +9,7 @@ touch dataset.yaml
 python create_images.py (creates training images)
 
 label the created images:
-
+git clone https://github.com/heartexlabs/labelImg.git
 cd labelImg
 python labelImg.py
 (label the images)
