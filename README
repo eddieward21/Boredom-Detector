@@ -18,12 +18,12 @@ git clone https://github.com/heartexlabs/labelImg.git
 cd labelImg
 python labelImg.py
 (label the images)
-![Alt text](https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg)
+![alt text](https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg)
 
 
 Train the model:
 python train.py --img 640 --epochs 500 --data dataset.yaml --weights yolov5s.pt
 
-![Alt text](https://www.researchgate.net/profile/Franck-Luthon/publication/305703907/figure/fig4/AS:1010771270070279@1617998058994/Face-bounding-box-and-landmark-points-detection-using-the-algorithm-in-8.png)
+![alt text](https://www.researchgate.net/profile/Franck-Luthon/publication/305703907/figure/fig4/AS:1010771270070279@1617998058994/Face-bounding-box-and-landmark-points-detection-using-the-algorithm-in-8.png)
 
 pipenv install Pillow==9.5.0
