@@ -1,4 +1,8 @@
-Install and configure modules/files
+## A Boredom Detector using the YOLO algorithm. The idea is to enhance user productivity and focus through warnings.
+
+
+
+Install and configure modules/files:
 pipenv shell
 install torch torchvision torchaudio
 git clone https://github.com/ultralytics/yolov5.git
