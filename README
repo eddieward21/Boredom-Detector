@@ -8,7 +8,7 @@ touch dataset.yaml
 (Configure dataset.yaml)
 
 python create_images.py (creates training images using OpenCV)
-
+![alt text](https://cascable.se/help/pro-webcam/how-to-look-awesome/macbook-webcam.jpg)
 
 
 
