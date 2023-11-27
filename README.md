@@ -11,6 +11,7 @@ git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pipenv install -r requirements.txt 
 touch dataset.yaml
+pipenv install Pillow==9.5.0
 (Configure dataset.yaml)
 
 python create_images.py (creates training images using OpenCV)
@@ -32,4 +33,3 @@ python train.py --img 640 --epochs 500 --data dataset.yaml --weights yolov5s.pt
 
 ![alt text](https://www.researchgate.net/profile/Franck-Luthon/publication/305703907/figure/fig4/AS:1010771270070279@1617998058994/Face-bounding-box-and-landmark-points-detection-using-the-algorithm-in-8.png)
 
-pipenv install Pillow==9.5.0
